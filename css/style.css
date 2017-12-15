@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: normal 14px/24px Arial, sans-serif;
+}
+p{
+	margin: 0 0 15px 0;
+}
+.header{
+	position: fixed;
+	float: left;
+	width: 100%;
+	background: #fff;
+	top: 0;
+	left: 0;
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.wrapper{
+	max-width: 1000px;
+	margin: 120px auto 0 auto;
+}
+h1{
+	color: #0B6C4D;
+	font: normal 60px Arial, sans-serif;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.slim-header h1{
+	color: #195c89;
+	font: normal 30px Arial, sans-serif;
+}
